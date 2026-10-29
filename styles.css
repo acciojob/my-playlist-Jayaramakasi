@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+body{
+	background-color:rgb(204, 204, 204);
+	display:flex;
+	justify-content:center;
+	/* align-items:center; */
+	font-family : sans-serif;
+}
+
+.container{
+	display : flex;
+	flex-direction : column;
+	justify-content : center;
+	align-content : center;
+}
+.songs{
+	height:150px;
+	width:600px;
+	background-color:white;
+	display:flex;
+	justify-content:start;
+	align-items:start;
+	border:2px solid black;
+	border-radius:8px;
+}
+.bear{
+	width : 500px;
+	background-color : white;
+	padding : 10px;
+	border:2px solid black;
+	border-radius:8px;
+	display:flex;
+	flex-direction:column;
+}
+.video{
+	width : 100%;
+}
+.audio{
+	width :100%;
+}
