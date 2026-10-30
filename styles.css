@@ -1,42 +1,79 @@
 /*  your css code here. If applicable */
 body{
 	background-color:rgb(204, 204, 204);
-	display:flex;
-	justify-content:center;
-	/* align-items:center; */
-	font-family : sans-serif;
+	margin:0;
 }
 
-.container{
-	display : flex;
-	flex-direction : column;
-	justify-content : center;
-	align-content : center;
-}
-.songs{
-	height:150px;
-	width:600px;
-	background-color:white;
-	display:flex;
-	justify-content:start;
-	align-items:start;
-	border:2px solid black;
-	border-radius:8px;
-	margin-left:-40px
-}
-.bear{
-	width : 500px;
-	background-color : white;
-	padding : 10px;
-	border:2px solid black;
-	border-radius:8px;
+.mainContainer{
+	width:90%;
+	margin:10px auto;
+	padding:0px;
+	
 	display:flex;
 	flex-direction:column;
+	gap:0px;
+}
+h1{
+	text-align:center;
+	font-family: sans-serif;
 	
 }
-.video{
-	width : 100%;
+.playlist{
+	background-color:white;
+	border:2px solid black;
+	border-radius:10px;
+	padding:20px;
+
+	display:flex;
+	flex-direction:column;
 }
-.audio{
-	width :100%;
+
+ul{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding:0;
+	margin:0;
 }
+li{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-size:13px;
+	font-family:sans-serif ;
+	/* font-weight:bold; */
+}
+.player_one{
+	background-color:white;
+	padding:20px;
+	border-radius:10px;
+
+	disply:flex;
+	flex-direction:column;
+	align-items:center;
+	gap:15px;
+}
+.player_one video{
+	width:100%;
+}
+.player_one audio{
+	width:100%;
+}
+
+
+h2{
+	text-align:center;
+	font-family:sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
