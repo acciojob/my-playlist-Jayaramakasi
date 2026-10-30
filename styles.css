@@ -22,6 +22,7 @@ body{
 	align-items:start;
 	border:2px solid black;
 	border-radius:8px;
+	margin-left:-40px
 }
 .bear{
 	width : 500px;
@@ -31,6 +32,7 @@ body{
 	border-radius:8px;
 	display:flex;
 	flex-direction:column;
+	
 }
 .video{
 	width : 100%;
